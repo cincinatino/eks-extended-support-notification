@@ -49,7 +49,7 @@ def lambda_handler(event, context):
 
         # Publish to SNS Topic
         # Can be an Environment variables
-        sns_topic_arn = "arn:aws:sns:us-east-1:869954586467:Eks-Version-NonComplianceAlerts"  
+        sns_topic_arn = "arn:aws:sns:us-east-1:0000000000:Eks-Version-NonComplianceAlerts"  
 
         sns.publish(
             TopicArn=sns_topic_arn,
